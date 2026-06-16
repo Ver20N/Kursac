@@ -1,0 +1,28 @@
+CLASSIFICATION METRICS REPORT
+======================================================================
+
+Accuracy: 0.9139 (91.39%)
+
+Macro Average:
+  Precision: 0.9183
+  Recall: 0.9139
+  F1-Score: 0.9138
+
+Weighted Average:
+  Precision: 0.9183
+  Recall: 0.9139
+  F1-Score: 0.9138
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+        crazing       1.00      0.95      0.97        60
+      inclusion       0.81      0.77      0.79        60
+        patches       0.97      0.98      0.98        60
+ pitted_surface       0.98      0.83      0.90        60
+rolled-in_scale       0.95      1.00      0.98        60
+      scratches       0.80      0.95      0.87        60
+
+       accuracy                           0.91       360
+      macro avg       0.92      0.91      0.91       360
+   weighted avg       0.92      0.91      0.91       360
