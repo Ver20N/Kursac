@@ -1,0 +1,45 @@
+======================================================================
+МЕТРИКИ МОДЕЛИ: LightweightCNN
+======================================================================
+
+Accuracy: 0.9611 (96.11%)
+
+Macro Average:
+  Precision: 0.9640
+  Recall:    0.9611
+  F1-Score:  0.9609
+
+Weighted Average:
+  Precision: 0.9640
+  Recall:    0.9611
+  F1-Score:  0.9609
+
+ROC-AUC OvR (macro): 0.9983
+ROC-AUC OvO (macro): 0.9983
+
+Метрики по классам:
+----------------------------------------------------------------------
+Class                Precision    Recall       F1-Score    
+----------------------------------------------------------------------
+crazing              0.9677       1.0000       0.9836      
+inclusion            0.8806       0.9833       0.9291      
+patches              1.0000       0.9667       0.9831      
+pitted_surface       0.9831       0.9667       0.9748      
+rolled-in_scale      0.9524       1.0000       0.9756      
+scratches            1.0000       0.8500       0.9189      
+
+Classification Report:
+----------------------------------------------------------------------
+                 precision    recall  f1-score   support
+
+        crazing       0.97      1.00      0.98        60
+      inclusion       0.88      0.98      0.93        60
+        patches       1.00      0.97      0.98        60
+ pitted_surface       0.98      0.97      0.97        60
+rolled-in_scale       0.95      1.00      0.98        60
+      scratches       1.00      0.85      0.92        60
+
+       accuracy                           0.96       360
+      macro avg       0.96      0.96      0.96       360
+   weighted avg       0.96      0.96      0.96       360
+
